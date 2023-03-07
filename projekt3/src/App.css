@@ -1,42 +1,187 @@
-#root {
-  max-width: 1280px;
+#root,
+.App {
+  background-color: #000000ff;
+  color: #FCFCFCff;
+  display: flex;
+  font-family: Helvetica, sans-serif, Arial;
+  max-width: 1220px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column1 {
+  width: 243px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.S1A {
+  background-color: #FCFCFCff;
+  height: 582px;
 }
 
-.card {
-  padding: 2em;
+.snowman {
+  width: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+p {
+  color: black;
+  font-size: 9px;
+  text-align: left;
+  padding: 25px 60px 25px 9px;
+  
 }
+
+.subgroup {
+  display: flex;
+  justify-content: space-between;
+}
+.skiing {
+  height: 83px;
+  width: 35px;
+}
+
+.winter {
+  height: 83px;
+  padding-right: 15px;
+  width: 64px;
+}
+
+.moresnow {
+  height: 57px;
+  padding-right: 36px;
+  padding-top: 18px;
+  width: 42px;
+}
+.subgroup2 {
+display: flex;
+justify-content: space-between;
+}
+
+.snows {
+  height: 33px;
+  padding-top: 45px;
+  width: 17px;
+
+}
+.night {
+  height: 34px;
+  padding-right: 78px;
+  padding-top: 46px;
+  width: 26px;
+}
+
+.S1B {
+  background-color: blue;
+  height: 241px;
+  margin-top: 102px;
+}
+
+.winterplane {
+  height: 100%;
+  width: 100%;
+}
+
+.column2 {
+margin-left: 102px;
+width: 475px;
+}
+
+.S2A {
+  background-color: brown;
+  height: 194px;
+  margin-bottom: 112px;
+}
+
+.plane {
+  height: 100%;
+  width: 100%;
+}
+
+.S2B {
+  background-color: coral;
+  height: 267px;
+  padding: 0 17px;
+  margin-bottom: 111px;
+}
+
+.days {
+  font-size: 3em;
+}
+
+.title {
+  font-size: 3em;
+
+  text-align: left;
+  width: 65%;
+}
+
+.S2C {
+  background-color: darkgreen;
+  height: 241px;
+}
+
+.wintermore {
+  height: 100%;
+  width: 100%;
+}
+
+.column3 {
+  margin-left: 94px;
+  width: 308px;
+}
+
+.S3A {
+  background-color: crimson;
+  height: 61px;
+  margin-bottom: 95px;
+}
+
+.sunflowers {
+  height: 150%;
+  width: 100%;
+}
+
+.S3B {
+  background-color: darkslateblue;
+  height: 271px;
+  margin-bottom: 94px;
+}
+
+.sunsand {
+  height: 100%;
+  width: 100%;
+}
+
+.S3C {
+  background-color: darkmagenta;
+  height: 410px;
+}
+
+.summer {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 100;
+  
+}
+
+/*line-height: 1.1;*/
+
+/* CSS HEX 
+--ebony: #5E685Fff;
+--white: #FFFFFFff;
+--timberwolf: #CFD5D1ff;
+--ghost-white: #EFEEF4ff;
+--black: #000000ff;
+*/
